@@ -111,6 +111,12 @@ logging level ZTP informational
 !
 {% include './gc_templates/eos/hostname.j2' %}
 !
+{% include './gc_templates/eos/interfaces.j2' %}
+!
+banner login
+Hello!
+EOF
+!
 spanning-tree mode mstp
 !
 system l1
